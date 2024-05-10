@@ -1,0 +1,204 @@
+.installarea{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap:12px;
+}
+.installtxt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 220;
+    font-style: normal;
+    gap: 20px;
+}
+.installbtns{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    text-align: center;
+
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.downloadcount{
+    flex-direction: row;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+}
+.installarea img{
+
+    width: 15vw;
+    border-radius:33px;
+    min-width: 183px;
+    max-width: 220px;
+
+}
+.downloadcounter{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+   
+}
+.downloads{
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+.installbtns button{
+    width: 78px;
+    height: 37px;
+     border: 0px solid white; 
+    /*! padding: 0px; */
+    border-radius: 14px;
+    font-size: 19px;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    
+}
+  .install{
+    color: black;
+    background-color: #ffffff;
+}
+.cancel{
+    color: black;
+    background-color: #ff0000;
+    display: none;
+}
+.uninstall{
+    color: black;
+    background-color: #00f7ff;
+    display: none;
+}
+.installname{
+    font-size: 28px;}
+
+
+    .reviewarea{
+        display: flex;
+        flex-direction: column;
+         font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+ 
+        width: 86vw;
+        height: 865px;
+        background-color: #ffffff2b;
+        margin: 72px auto;
+        border-radius: 56px;
+    }
+    .addreview{
+        display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap:10px;
+
+   
+  }
+  
+    
+    .addreview input{width: 44vw;
+        height: 8vh;
+        border-radius: 40px;
+        background-color: #0000001a;
+        border: 0px;
+        margin: 39px 0px;
+        color: white;
+        font-size: 20px;
+        font-family: "Crete Round", serif;
+        font-weight: 400;
+        font-style: normal;
+       
+    }
+    .addreview button{width: 131px;
+        height: 43px;
+        border-radius: 20px;
+        background-color: #0000004a;
+        border: 0px;
+        margin: 39px 0px;
+        font-size: 17px;
+color: white;
+font-family: "Crete Round", serif;
+font-weight: 400;
+font-style: normal;
+cursor: pointer;
+    }
+    .reviews{
+
+        display: flex;
+     flex-direction: column;
+        justify-content: flex-start;
+       
+    }
+    
+    .review h1{
+
+        
+    font-size: 34px;
+    }
+    .review h3{
+
+        
+        font-size: 15px;
+        }
+        .review{
+            margin: 24px 36px;
+            align-items: first baseline;
+        }
+.review h4{
+    font-size: 19px;
+}
+
+        
+@media only screen and (max-width: 1121px)  {
+    body {
+
+.addreview input{
+
+  
+    font-size: 15px;
+ 
+}
+    }
+}
+
+
+@media only screen and (max-width: 673px)  {
+    body {
+
+    
+        .review h1{
+
+        
+            font-size: 12px;
+            }
+            .review h3{
+        
+                
+                font-size: 12px;
+                }
+                .review h4{
+                    font-size: 12px;
+                }
+    }}
